@@ -1,0 +1,19 @@
+/* ----------------------------------------------------------
+/* character
+/* キャラクターのアニメーション
+/* ---------------------------------------------------------- */
+
+@keyframes fluffy {
+  0% {transform: translateY(0);}
+  50% {transform: translateY(-2px);}
+  100% {transform: translateY(0);}
+}
+
+.character {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  img {
+    animation: 2s ease-in-out fluffy infinite;
+  }
+}

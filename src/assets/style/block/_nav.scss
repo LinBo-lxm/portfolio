@@ -1,0 +1,42 @@
+/* ----------------------------------------------------------
+/* nav
+/* ナビゲーションのスタイル
+/* ---------------------------------------------------------- */
+
+.nav {
+  @include mq-md {
+    flex-basis: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.nav_list {
+  margin-left: 0;
+  list-style: none;
+  @include mq-md {
+    margin: 10px 0 12px;
+  }
+}
+
+.nav_item {
+  display: inline-block;
+}
+
+.nav_link {
+  padding: 20px 20px 17px;
+  line-height: 1;
+  color: white;
+  text-shadow:0 0 10px #FF0;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.2s;
+  &:hover {
+    border-bottom-color: $bg-color3;
+  }
+  @include mq-md {
+    border-bottom: 0;
+    padding: 0;
+    margin: 6px 10px;
+  }
+}

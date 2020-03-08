@@ -1,0 +1,147 @@
+/* ----------------------------------------------------------
+/* works
+/* worksのスタイル
+/* ---------------------------------------------------------- */
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.works_box {
+  flex-basis: 360px;
+  margin: 32px 0;
+  @include mq-md {
+    flex-basis: 100%;
+    margin: 0 32px 32px;
+  }
+}
+
+.works_name {
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #000033;
+}
+
+// 一覧のページ
+.works_list {
+  list-style: none;
+  margin: 0;
+}
+
+.works_item {
+  margin-top: 100px;
+}
+
+.works_list-title {
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #000033;
+}
+
+.works_list-detail {
+  margin-top: 16px;
+  text-align: right;
+}
+
+.works_description {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+
+.works_year {
+  font-size: 1.3rem;
+  color: #000033;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.works_detail-detail {
+  margin: 32px 0;
+}
+
+.works_imgtxt01 {
+  position: relative;
+  p {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.works_imgtxt02 {
+  position: relative;
+  p {
+    position: absolute;
+    color: white;
+    text-shadow: 2px 2px #fff, 5px 5px rgba(0, 188, 212, 0.4);
+    font-weight: bold;
+    font-size: 2em;
+    top: 20%;
+    left: 40%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+  }
+  img {
+    width: 100%;
+  }
+}
+.works_imgtxt01a {
+  position: relative;
+  p {
+    position: absolute;
+    color: white;
+    font-size: 1.4em;
+    top: 20%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.works_imgtxt02a {
+  position: relative;
+  p {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    writing-mode: vertical-rl;
+
+  }
+  img {
+    width: 100%;
+  }
+}

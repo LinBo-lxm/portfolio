@@ -1,0 +1,33 @@
+/* ----------------------------------------------------------
+/* variables
+/* 変数
+/* ---------------------------------------------------------- */
+
+$main-color: #0a093f;
+$main-sub-color: #EEEEEE;
+$base-color: #EEEEEE;
+$text-color: #000033;
+
+$thin-gray: #EEEEEE;
+
+$line-color: lighten($text-color, 50%);
+
+$bg-color: $base-color;
+$bg-color1: #fff;
+$bg-color2: $base-color;
+$bg-color3: $main-sub-color;
+$link-color: $main-color;
+
+
+/* ----------------------------------------------------------
+/* break point
+/* ---------------------------------------------------------- */
+
+$content-size: 1000px;
+$break-point: $content-size - 1px; 
+
+$b-small-max: 480px;
+$b-medium-min: $b-small-max + 1;
+$b-medium-max: 768px;
+$b-large-min: $b-medium-max + 1;
+$b-large-max: 1024px;

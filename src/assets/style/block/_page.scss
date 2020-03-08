@@ -1,0 +1,18 @@
+/* ----------------------------------------------------------
+/* page
+/* 下層ページのスタイル
+/* ---------------------------------------------------------- */
+
+.page {
+  box-sizing: content-box;
+  max-width: calc(16px * 42);
+  padding: 0 24px;
+  margin: 160px auto;
+  &.is-wide {
+    max-width: 800px;
+  }
+}
+
+.page_headline {
+  margin-bottom: 64px;
+}

@@ -1,0 +1,52 @@
+/* ----------------------------------------------------------
+/* common
+/* ページ全体に関わるスタイル
+/* ---------------------------------------------------------- */
+
+.common_tags {
+  li {
+    display: inline-block;
+    font-size: 1.2rem;
+    & +li {
+      margin-left: 6px;
+    }
+  }
+}
+
+.common_link-box {
+  text-decoration: none;
+}
+
+.common_thumb {
+  @include thumbnail;
+}
+
+/** Common more box */
+.common_more {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.common_more-link {
+  display: block;
+  max-width: 300px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid $link-color;
+  background-color: transparent;
+  transition: background-color 0.3s;
+  &:hover {
+    color: #fff;
+    background-color: $link-color;
+  }
+}
+
+/** common contents */
+.common_article-title {
+  margin-top: 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+}

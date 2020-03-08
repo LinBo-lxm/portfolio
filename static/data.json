@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "workdetail01",
+    "title": "＞＞＞ Web開発 ＜＜＜",
+    "title2": "--- Web開発 ---",
+    "year": "2019年",
+    "description": "フリーランスポートフォリオのWebサイト",
+    "text": "Vue.jsを使用したポートフォリオサイト",
+    "path": "https://github.com/LinBo-lxm",
+    "role": "デザイン・コーディング・Scss・HTML・Vue.js・GitHub Pages",
+    "urlTitle": "GitHub Code",
+    "url": "//github.com/LinBo-lxm",
+    "tags": [
+      "フロント開発",
+      "Webサイト制作"
+    ],
+    "picture" : [
+      {
+        "id": "1",
+        "path": ""
+      },
+      {
+        "id": "2",
+        "path": ""
+      }
+    ]
+  },
+  {
+    "slug": "workdetail02",
+    "title": "＞＞＞ EA開発 ＜＜＜",
+    "title2": "--- EA開発 ---",
+    "year": "2019年",
+    "description": "EAツール",
+    "text": "MQL4を使用したEAツール",
+    "path": "https://github.com/LinBo-lxm",
+    "role": "デザイン・コーディング・バックテスト・VPSで稼働",
+    "urlTitle": "GitHub Link",
+    "url": "//github.com/LinBo-lxm",
+    "tags": [
+      "個人活動",
+      "Webサイト制作"
+    ],
+    "picture" : [
+      {
+        "id": "1",
+        "path": ""
+      },
+      {
+        "id": "2",
+        "path": ""
+      }
+    ]
+  }
+]
