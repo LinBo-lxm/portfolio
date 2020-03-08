@@ -14,21 +14,21 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/portfolio',
+      path: '/',
       name: 'Top',
       component: Top
     },
     {
-      path: '/portfolio/about',
+      path: '/about',
       name: 'About',
       component: About
     },
     {
-      path: '/portfolio/works',
+      path: '/works',
       component: LayoutWorks,
       children: [
         {
-          path: '/portfolio',
+          path: '/',
           name: 'Works',
           component: WorksTop
         },
@@ -40,7 +40,7 @@ export default new Router({
       ]
     },
     {
-      path: '/portfolio/contact',
+      path: '/contact',
       name: 'Contact',
       component: Contact
     },
