@@ -46,8 +46,9 @@ export default new Router({
     },
     {
       path: '*',
-      name: 'Top',
-      component: Top
+      name: 'Not Found',
+      component: PageNotFound,
+      title: 'Not Found'
     }
   ],
   scrollBehavior(savedPosition) {
