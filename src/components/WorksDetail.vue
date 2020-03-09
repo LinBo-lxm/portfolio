@@ -43,6 +43,9 @@
     },
     computed: {
       filteredData: function () {
+        console.log(window.location.host);
+        console.log(window.location.href);
+        console.log(window.location.protocol);
         var url = window.location.protocol+ '//' + window.location.host + '/portfolio/works/'
         var matchData = this.data.filter(function(item, index){
           if (item.slug === window.location.href.replace(url, '')) return true;
