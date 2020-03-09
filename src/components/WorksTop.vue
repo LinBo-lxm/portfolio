@@ -19,7 +19,7 @@
 <script>
   export default {
     title: 'Works',
-    description: 'べこ（becolomochi）の作品一覧',
+    description: 'LinBo制作',
     props: ['data']
   }
 </script>
