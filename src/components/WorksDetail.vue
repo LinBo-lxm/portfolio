@@ -25,7 +25,7 @@
         p Code Changes The World
       div(v-if="filteredData.slug === 'workdetail02'").works_imgtxt02a
         img(src="../assets/img/img_work7.jpg" width="" height="" alt="")
-        p プログラムにて世界を美しく
+        p プログラムで世界を美しく
 </template>
 
 <script>
