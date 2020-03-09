@@ -2,12 +2,12 @@
   {
     "slug": "workdetail01",
     "title": "＞＞＞ Web開発 ＜＜＜",
-    "itema": "＊＊ Web開発 ＊＊",
+    "itema": "--- Web開発 ---",
     "year": "2019年",
     "description": "フリーランスポートフォリオのWebサイト",
     "text": "Vue.jsを使用したポートフォリオサイト",
     "path": "https://github.com/LinBo-lxm",
-    "role": "デザイン・コーディング・Scss・HTML・Vue.js・GitHub Pages",
+    "role": "デザイン・コーディング・Scss・HTML・Vue.js・Webpack・GitHub Pages",
     "urlTitle": "GitHub Code",
     "url": "//github.com/LinBo-lxm",
     "tags": [
@@ -28,7 +28,7 @@
   {
     "slug": "workdetail02",
     "title": "＞＞＞ EA開発 ＜＜＜",
-    "itema": "＊＊ Web開発 ＊＊",
+    "itema": "--- EA開発 ---",
     "year": "2019年",
     "description": "EAツール",
     "text": "MQL4を使用したEAツール",

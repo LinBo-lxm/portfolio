@@ -4,7 +4,7 @@
       h1.headline.page_headline About
         .sub LIN BO's Profile
       p(align="center")
-        img(src="../assets/img/profileimg.jpg")
+        img(src="../assets/img/profileimg.png")
       h2 My 
         small Title
       p.about_paragraph Web Engineer / Front-end Developer
