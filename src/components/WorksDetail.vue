@@ -7,7 +7,7 @@
         li
           router-link(to="/works") Works
     article.article
-      h1.headline(v-cloak) {{ filteredData.title2 }}
+      h1.headline(v-cloak) {{ filteredData.itema }}
       div(v-if="filteredData.slug === 'workdetail01'").works_imgtxt01
         img(src="../assets/img/img_protfolio01.jpg" width="" height="" alt="")
         p Protfolio Site
@@ -32,12 +32,12 @@
   export default {
     props: ['data'],
     mounted() {
-      document.title = this.filteredData.title2 + '- LinBo\'s portfolio'
+      document.title = this.filteredData.itema + '- LinBo\'s portfolio'
 
       let meta = document.getElementsByTagName('meta')
       for (var i = 0; i < meta.length; i++) {
         if (meta[i].name.toLowerCase() == 'description') {
-          meta[i].content = 'LinBoが作成した ' + this.filteredData.title2 + ' のページです'
+          meta[i].content = 'LinBoが作成した ' + this.filteredData.itema + ' のページです'
         }
       }
     },

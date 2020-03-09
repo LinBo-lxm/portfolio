@@ -2,7 +2,7 @@
   {
     "slug": "workdetail01",
     "title": "＞＞＞ Web開発 ＜＜＜",
-    "title2": "--- Web開発 ---",
+    "itema": "＊＊ Web開発 ＊＊",
     "year": "2019年",
     "description": "フリーランスポートフォリオのWebサイト",
     "text": "Vue.jsを使用したポートフォリオサイト",
@@ -28,7 +28,7 @@
   {
     "slug": "workdetail02",
     "title": "＞＞＞ EA開発 ＜＜＜",
-    "title2": "--- EA開発 ---",
+    "itema": "＊＊ Web開発 ＊＊",
     "year": "2019年",
     "description": "EAツール",
     "text": "MQL4を使用したEAツール",
