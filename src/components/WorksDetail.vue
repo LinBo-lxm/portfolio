@@ -43,7 +43,7 @@
     },
     computed: {
       filteredData: function () {
-        var url = window.location.protocol+ '//' + window.location.host + '/works/'
+        var url = window.location.protocol+ '//' + window.location.host + '/portfolio/works/'
         var matchData = this.data.filter(function(item, index){
           if (item.slug === window.location.href.replace(url, '')) return true;
         })
