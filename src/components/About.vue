@@ -27,6 +27,7 @@
         li 性別：男性
         li 年齢：37
         li 所在地：東京
+        li メール：lanyansha@outlook.jp
 
     section.section
       h2.section_headline スキル
@@ -35,14 +36,13 @@
         li 言語
           ul
             li Javascript / jQuery / Vue.js
-            li CSS3 / Scss
-            li HTML5
+            li CSS / Scss
+            li HTML
             li JAVA / Python  
         li DB
           ul
            li PostgreSQL
            li MySQL
-           li Adobe Illustrator/Figma
         li サーバＯＳ
           ul
             li Windows
