@@ -7,7 +7,7 @@
       input(name="SHEET_NAME" type="hidden" value="問い合わせフォーム")
       .form
         label.form__label メールアドレス
-        input(type="email" name="your-email" placeholder="your@email.com").wide
+        input(type="email" name="your-email" placeholder="your@email.com" required).wide
       .form
         label.form__label お名前
         input(type="text" name="your-name" placeholder="Your Name").wide
