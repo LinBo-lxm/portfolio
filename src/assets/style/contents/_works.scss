@@ -64,7 +64,11 @@
 .works_detail-detail {
   margin: 32px 0;
 }
-
+.works_thumb {
+  img {
+    width: 100%;
+  }
+}
 .works_imgtxt01 {
   position: relative;
   p {

@@ -7,10 +7,10 @@
       input(name="SHEET_NAME" type="hidden" value="問い合わせフォーム")
       .form
         label.form__label メールアドレス
-        input(type="email" name="your-email" placeholder="your@email.com" required).wide
+        input(type="email" name="your-email" placeholder="your@email.com" required).wide#mail
       .form
         label.form__label お名前
-        input(type="text" name="your-name" placeholder="Your Name").wide
+        input(type="text" name="your-name" placeholder="Your Name").wide#name
       .form
         label.form__label メッセージ
           span.label-required 必須
@@ -28,8 +28,21 @@
       sendMessage() {
         const form = $('form');
         const message = $('#message');
+        const mail = $('#mail');
+        const name = $('#name');
         const submitBtn = $('#submit');
-
+        if(!message.val()) {
+          alert('メッセージを入力してください');
+          return false;
+        }
+        if(!name.val()) {
+          alert('お名前を入力してください');
+          return false;
+        }
+        if(!mail.val()) {
+          alert('メールアドレスを入力してください');
+          return false;
+        }
         $.ajax({
           url: 'https://script.google.com/macros/s/AKfycbzGgD05ev1b16aX1kMzgDTndB5UlomELRaV2vh3KHWoNcnCVjon/exec',
           dataType: 'jsonp',
