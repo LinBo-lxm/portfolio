@@ -33,12 +33,13 @@
       h2.section_headline スキル
 
       ul.about_list
-        li 言語
+        li 言語・フレームワーク
           ul
             li Javascript / jQuery / Vue.js
             li CSS / Scss
             li HTML
-            li JAVA / Python  
+            li JAVA / Python
+            li Spring Boot / Thymeleaf
         li DB
           ul
            li PostgreSQL
