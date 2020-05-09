@@ -44,6 +44,7 @@
           ul
            li PostgreSQL
            li MySQL
+           li Oracle
         li サーバＯＳ
           ul
             li Windows
