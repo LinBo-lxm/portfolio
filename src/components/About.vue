@@ -50,9 +50,15 @@
             li Windows
             li Linux
             li Unix
-        li ツール
+        li CI/CDツール
           ul
+            li RestAPI
             li GitHub / GitLab
+            li Jenkins
+            li Redmine
+            li Metabase
+            li Sonarqube
+            li Slack / Mattermost
 
     section.section
       h2.section_headline 関連リンク
